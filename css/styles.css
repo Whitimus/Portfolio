@@ -38,8 +38,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-
-
 body {
 	background: var(--clr-light);
 	color: var(--clr-dark);
@@ -124,8 +122,12 @@ h3 {
 	color: var(--clr-light);
 	margin-bottom: 1em;
 }
-.section__subtitle--work {
+.section__title--work {
 	color: var(--clr-accent);
+	font-size: var(--fs-h1);
+}
+.section__subtitle--work {
+	color: var(--clr-dark);
 	font-weight: var(--fw-bold);
 	margin-bottom: 2em;
 }
@@ -310,8 +312,8 @@ header {
 		margin-right: auto;
 	}
 
-	.service + .service {
-		margin: 2em;
+	.services > * {
+		margin: 1em;
 	}
 }
 
@@ -355,7 +357,7 @@ header {
 /* My Projects */
 
 .my-work {
-	background-color: var(--clr-dark);
+	/* background-color: var(--clr-dark); */
 	color: var(--clr-light);
 	text-align: center;
 }
@@ -425,6 +427,6 @@ header {
 
 .portfolio-item-individual {
 	padding: 0 2em 2em;
-	max-width: 1000px ;
+	max-width: 1000px;
 	margin: 0 auto;
 }
