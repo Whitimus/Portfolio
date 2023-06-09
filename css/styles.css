@@ -326,6 +326,9 @@ header {
 .about-me--image {
 	box-shadow: var(--bs);
 }
+.link {
+	text-decoration: none;
+}
 
 @media (min-width: 600px) {
 	.about-me {
